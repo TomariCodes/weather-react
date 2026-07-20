@@ -20,7 +20,7 @@ function App() {
           and is open-sourced on{" "}
           <a
             className="footer_link"
-            href="https://github.com/tomari-southern/weather-react"
+            href="https://github.com/TomariCodes/weather-react"
             target="_blank"
             rel="noopener noreferrer"
           >
