@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Weather App</h1>
       </header>
+      <footer>
+        <p>
+          This project was coded by{" "}
+          <a
+            className="footer_link"
+            href="https://tomari-southern.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tomari Southern
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            className="footer_link"
+            href="https://github.com/tomari-southern/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
