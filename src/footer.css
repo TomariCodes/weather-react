@@ -1,0 +1,18 @@
+footer.footer {
+  border-top: 1px solid #f9f7fe;
+  padding-top: 30px;
+  text-align: center;
+  color: #888;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+footer.footer .footer_link,
+footer.footer .footer_link:visited {
+  color: lightblue;
+  text-decoration: none;
+}
+
+footer.footer .footer_link:hover {
+  text-decoration: underline;
+}
